@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
@@ -24,6 +25,7 @@ import com.amazonaws.services.s3.model.S3Object;
  * A simple test harness for locally invoking your Lambda function handler.
  */
 @RunWith(MockitoJUnitRunner.class)
+@Ignore
 public class LambdaFunctionHandlerTest {
 
     private final String CONTENT_TYPE = "image/jpeg";
